@@ -1,0 +1,222 @@
+@font-face {font-family: "DooM"; src: url('rsc/font/DooM.ttf') ;}
+  
+  h1, h2, h3 {
+    color: rgb(200,0,0);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+  }
+
+  .arrow {
+    color: rgb(200,0,0);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    font-size: 150%;
+  }
+  
+  h6, li {
+      color: rgb(200,200,200);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(64,64,64);
+  }
+  
+  p, t {
+      color: rgb(220,220,220);
+      font-family: DooM; 
+      -webkit-text-stroke-width: 1px; 
+      -webkit-text-stroke-color: rgb(32,32,32);
+  }
+
+  .bigletter {
+    color: rgb(200,0,0);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+  }
+
+  .stat {
+    color: rgb(200,0,0);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    margin-left: 30px;
+    font-size: 130%;
+  }
+  
+    strong {
+      color: rgb(200,0,0);
+      font-family: DooM; 
+      -webkit-text-stroke-width: 0.5px; 
+      -webkit-text-stroke-color: rgb(80,0,0);
+  }
+
+  input {
+    background-color: rgb(32,32,32); 
+    color: rgb(220,220,220);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+
+  textarea {
+    background-color: rgb(32,32,32); 
+    color: rgb(220,220,220);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+
+
+  input[type="submit"] {
+    color: rgb(32,32,32);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+
+
+  label {
+    font-size: 125%; 
+    color: rgb(200,0,0);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1.2px; 
+    -webkit-text-stroke-color: rgb(32,32,32);
+  }
+
+
+  textarea[class="form-control"] {
+    background-color: rgb(32,32,32); 
+    color: rgb(220,220,220);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+
+
+  textarea[class="form-control"]:focus {
+    background-color: rgb(32,32,32); 
+    color: rgb(220,220,220);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+
+
+  textarea[class="form-control"]:active {
+    background-color: rgb(32,32,32); 
+    color: rgb(220,220,220);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+ 
+
+  select { 
+    background-color: rgb(32,32,32); 
+    color: rgb(220,220,220);
+    font-family: DooM; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(66,66,66);
+  }
+
+
+  a:link {
+  color: rgb(96,96,96);
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(64,0,0);
+  text-decoration: none;
+  font-family: DooM; 
+}
+a:visited {
+  color: rgb(32,32,32);
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(0,160,0);
+  text-decoration: none;
+  font-family: DooM; 
+}
+a:hover {
+  color: rgb(32,32,32);
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(255,0,0);
+  text-decoration: none;
+  font-family: DooM; 
+}
+a:focus {
+  color: rgb(0,255,255);
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(0,0,128);
+  text-decoration: none;
+  font-family: DooM; 
+}
+a:active {
+  color: rgb(255,255,0);
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(255,0,0);
+  text-decoration: none;
+  font-family: DooM; 
+}
+
+#nav1 {
+  float: left;
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 20%;
+  height: 500px;
+  background-image: url("rsc/img/graph/RW33_1.png");
+  background-size:none;
+}
+
+#mainheader {
+  float: none;
+}
+
+#section1 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  width: 80%;
+  height: 500px;
+  background-image: url("rsc/img/graph/WALL03_7.png");
+  background-size:none;
+}
+
+#ShowFrame {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+}
+
+#foot1 {
+  float: left;
+  width: 100%;
+  height: 100px;
+  padding-left: 50px;
+  background-image: url("rsc/img/graph/RW23_4.png");
+}
+
+#likebtn {
+  color: rgb(200,200,200);
+  font-family: DooM; 
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(64,64,64);
+  background-color: rgb(32,32,32);
+  border-radius: 7px;
+  border-color: rgb(88,88,88);
+  font-size: 130%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#likebtn:hover {
+  color: rgb(200,200,200);
+  font-family: DooM; 
+  -webkit-text-stroke-width: 1px; 
+  -webkit-text-stroke-color: rgb(64,64,64);
+  background-color: rgb(32,32,32);
+  border-radius: 7px;
+  border-color: rgb(88,255,88);
+}
